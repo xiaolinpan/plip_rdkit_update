@@ -1,0 +1,21 @@
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  Assigned the following bonds (format: atom1, atom2, order): {(1117, 1118, 2), (1147, 1148, 3), (1137, 1138, 2), (1119, 1116, 2), (1121, 1120, 2), (1126, 1127, 2), (1128, 1129, 2), (1115, 1122, 2), (1123, 1124, 2)}
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+
+Deleted waters farther than 5.0 angstroms from hets
+  NEW HET 1 atoms: [1110, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1129, 1130, 1131, 1132, 1133, 1134, 1135, 1136, 1137, 1138, 1139, 1140, 1141]
+  NEW HET 2 atoms: [1142]
+  NEW HET 3 atoms: [1143]
+  NEW HET 4 atoms: [1144]
+  NEW HET 5 atoms: [1145]
+  NEW HET 6 atoms: [1146, 1147, 1148]
+
+Found 27 waters
+
+Generated ionization/tautomeric states for all het groups
+Epik job ({job_id}) incorporated.

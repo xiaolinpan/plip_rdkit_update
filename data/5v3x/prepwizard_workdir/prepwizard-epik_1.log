@@ -1,0 +1,112 @@
+COMMAND:
+ /localhome/Softwares/schrodinger/epik-v5.3/bin/Linux-x86_64/epik_app -imae /home/pxl/localhome3/Study/PLFilter/plip_rdkit/data/5v3x/prepwizard_workdir/prepwizard-epik_1.mae -omae prepwizard-epik_1-out.mae -ms 10 -ph 7.0 -pht 2.0 -cg 0.3 0.3 -retain_i -metal_binding
+SCHRODINGER: /localhome/Softwares/schrodinger
+
+Running Epik version     5.3139
+Epik. Copyright Schrodinger, LLC. All rights reserved.
+
+Input file name:                        /home/pxl/localhome3/Study/PLFilter/plip_rdkit/data/5v3x/prepwizard_workdir/prepwizard-epik_1.mae
+Output file name:                       prepwizard-epik_1-out.mae
+Maximum number of states set to: 10
+Structure adjustment calculation requested.
+  Target pH set to 7.000
+pHt tolerance set to 2.000000e+00
+Both connectivity and geometry used in determining redundant structures.
+  Structures are distinct if: 
+    any position differs by more than 3.000000e-01
+    the rms difference in positions is larger than 3.000000e-01
+Retain ionization state turned on
+Metal binding mode turned on.
+
+Adjusting structures for pH 7.000000e+00 and minimum probability 1.000000e-02
+Solvent model name:                     water
+[running at reduced cpu priority]
+JobID:                                  pxl-System-Product-Name-0-61700c94
+---------------------------
+Processing Input Structure #1
+        Title: 
+Metal Binding:    Using non-metal probability:          3.228202e-03
+Metal Binding:    Using non-metal probability:          3.189039e-01
+Metal Binding:    Using non-metal probability:          6.778679e-01
+                                              Calculated pKas
+                                                 Conjugate
+                                          Atom   Acid/Base  pKa
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 1
+                                            37   Conj_Acid  8.60
+                                            19   Conj_Base  8.87
+ pKa penalty:                                 2.57 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  2.57 kcal/mol
+ Overall Penalty (tautomerization included):  3.40 kcal/mol
+ Total Charge: 0
+ Metal Penalty:                               3.40 kcal/mol
+ Chemistry Notes:   This compound has an ester and may undergo hydrolysis at high or low pH.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 2
+                                            37   Conj_Acid  6.69
+                                            57   Conj_Acid  8.87
+ pKa penalty:                                 0.66 kcal/mol
+     Charging penalty:                        0.01 kcal/mol
+     Neutralization penalty:                  0.66 kcal/mol
+ Overall Penalty (tautomerization included):  0.68 kcal/mol
+ Total Charge: 1
+ Metal Penalty:                               0.68 kcal/mol
+ Chemistry Notes:   This compound has an ester and may undergo hydrolysis at high or low pH.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 3
+                                            16   Conj_Base  6.69
+                                            56   Conj_Acid  9.05
+ pKa penalty:                                 0.24 kcal/mol
+     Charging penalty:                        0.24 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included):  0.23 kcal/mol
+ Total Charge: 0
+ Metal Penalty:                               0.23 kcal/mol
+ Chemistry Notes:   This compound has an ester and may undergo hydrolysis at high or low pH.
+---------------------------
+Processing Input Structure #2
+        Title: 
+Metal Binding:    Using non-metal probability:          3.228202e-03
+Metal Binding:    Using non-metal probability:          3.189039e-01
+Metal Binding:    Using non-metal probability:          6.778679e-01
+                                              Calculated pKas
+                                                 Conjugate
+                                          Atom   Acid/Base  pKa
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 1
+                                            37   Conj_Acid  8.60
+                                            19   Conj_Base  8.87
+ pKa penalty:                                 2.57 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  2.57 kcal/mol
+ Overall Penalty (tautomerization included):  3.40 kcal/mol
+ Total Charge: 0
+ Metal Penalty:                               3.40 kcal/mol
+ Chemistry Notes:   This compound has an ester and may undergo hydrolysis at high or low pH.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 2
+                                            37   Conj_Acid  6.69
+                                            57   Conj_Acid  8.87
+ pKa penalty:                                 0.66 kcal/mol
+     Charging penalty:                        0.01 kcal/mol
+     Neutralization penalty:                  0.66 kcal/mol
+ Overall Penalty (tautomerization included):  0.68 kcal/mol
+ Total Charge: 1
+ Metal Penalty:                               0.68 kcal/mol
+ Chemistry Notes:   This compound has an ester and may undergo hydrolysis at high or low pH.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 3
+                                            16   Conj_Base  6.69
+                                            56   Conj_Acid  9.05
+ pKa penalty:                                 0.24 kcal/mol
+     Charging penalty:                        0.24 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included):  0.23 kcal/mol
+ Total Charge: 0
+ Metal Penalty:                               0.23 kcal/mol
+ Chemistry Notes:   This compound has an ester and may undergo hydrolysis at high or low pH.
+---------------------------
+
+Job completed at Wed Oct 20 20:33:26 2021
+Elapsed time: 1.47135s

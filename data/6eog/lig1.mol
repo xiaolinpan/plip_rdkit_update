@@ -1,0 +1,218 @@
+6EOG - preprocessed_ligand
+                    3D
+ Schrodinger Suite 2020-3.
+ 49 52  0  0  1  0            999 V2000
+  -17.6026    7.3349   -2.4618 C   0  0  2  0  0  0
+  -19.4283    5.5957   -2.2611 C   0  0  1  0  0  0
+  -18.6729    8.3968   -2.1362 C   0  0  2  0  0  0
+  -20.0868    7.8813   -2.4999 C   0  0  2  0  0  0
+  -19.9338    4.2709   -1.6673 C   0  0  0  0  0  0
+  -15.5826    7.8329   -0.9236 C   0  0  0  0  0  0
+  -12.0712    9.2802   -0.8186 C   0  0  0  0  0  0
+  -11.9623    8.0739    1.7205 C   0  0  0  0  0  0
+  -10.8839    8.8620    1.2719 C   0  0  0  0  0  0
+  -10.9412    9.4669    0.0006 C   0  0  0  0  0  0
+  -25.5073    7.9730   -3.5383 C   0  0  0  0  0  0
+  -25.1429    9.3300   -3.4328 C   0  0  0  0  0  0
+  -14.3282    8.2790   -1.2313 C   0  0  0  0  0  0
+  -13.1561    8.4894   -0.3772 C   0  0  0  0  0  0
+  -13.0931    7.8933    0.9015 C   0  0  0  0  0  0
+  -25.0222    5.3052   -3.3257 Cl  0  0  0  0  0  0
+  -24.5768    6.9675   -3.2119 C   0  0  0  0  0  0
+  -23.2823    7.3166   -2.7830 C   0  0  0  0  0  0
+  -22.9144    8.6735   -2.6755 C   0  0  0  0  0  0
+  -23.8486    9.6782   -2.9986 C   0  0  0  0  0  0
+  -21.3206    9.1531   -2.0808 S   0  0  0  0  0  0
+  -20.3117    6.6357   -1.8476 O   0  0  0  0  0  0
+  -21.0656    3.8363   -2.3904 O   0  0  0  0  0  0
+  -17.9898    5.9729   -1.8351 C   0  0  2  0  0  0
+  -17.8935    5.9608   -0.4135 O   0  0  0  0  0  0
+  -18.4382    9.5938   -2.8595 O   0  0  0  0  0  0
+  -16.2393    7.7653   -2.1395 N   0  0  0  0  0  0
+  -14.2901    8.4988   -2.6082 N   0  0  0  0  0  0
+  -15.4362    8.2061   -3.1354 N   0  0  0  0  0  0
+   -9.9088   10.2278   -0.4365 F   0  0  0  0  0  0
+   -9.7943    9.0339    2.0593 F   0  0  0  0  0  0
+  -11.9138    7.4848    2.9398 F   0  0  0  0  0  0
+  -17.6339    7.1887   -3.5436 H   0  0  0  0  0  0
+  -19.4523    5.5115   -3.3504 H   0  0  0  0  0  0
+  -18.6381    8.6241   -1.0691 H   0  0  0  0  0  0
+  -20.1524    7.7233   -3.5785 H   0  0  0  0  0  0
+  -20.1800    4.3767   -0.6097 H   0  0  0  0  0  0
+  -19.1657    3.5008   -1.7536 H   0  0  0  0  0  0
+  -16.0429    7.5478    0.0098 H   0  0  0  0  0  0
+  -12.1021    9.7476   -1.7923 H   0  0  0  0  0  0
+  -26.5012    7.7015   -3.8649 H   0  0  0  0  0  0
+  -25.8575   10.1028   -3.6778 H   0  0  0  0  0  0
+  -13.9067    7.2801    1.2582 H   0  0  0  0  0  0
+  -22.5921    6.5328   -2.5221 H   0  0  0  0  0  0
+  -23.5743   10.7199   -2.9069 H   0  0  0  0  0  0
+  -21.7622    4.4643   -2.2592 H   0  0  0  0  0  0
+  -17.3011    5.2148   -2.2117 H   0  0  0  0  0  0
+  -18.1231    5.1029   -0.0881 H   0  0  0  0  0  0
+  -19.1376   10.1958   -2.6404 H   0  0  0  0  0  0
+  1  3  1  0  0  0
+  1 24  1  0  0  0
+  1 27  1  0  0  0
+  1 33  1  0  0  0
+  2  5  1  0  0  0
+  2 22  1  0  0  0
+  2 24  1  0  0  0
+  2 34  1  0  0  0
+  3  4  1  0  0  0
+  3 26  1  0  0  0
+  3 35  1  0  0  0
+  4 21  1  0  0  0
+  4 22  1  0  0  0
+  4 36  1  0  0  0
+  5 23  1  0  0  0
+  5 37  1  0  0  0
+  5 38  1  0  0  0
+  6 13  2  0  0  0
+  6 27  1  0  0  0
+  6 39  1  0  0  0
+  7 10  2  0  0  0
+  7 14  1  0  0  0
+  7 40  1  0  0  0
+  8  9  2  0  0  0
+  8 15  1  0  0  0
+  8 32  1  0  0  0
+  9 10  1  0  0  0
+  9 31  1  0  0  0
+ 10 30  1  0  0  0
+ 11 12  2  0  0  0
+ 11 17  1  0  0  0
+ 11 41  1  0  0  0
+ 12 20  1  0  0  0
+ 12 42  1  0  0  0
+ 13 14  1  0  0  0
+ 13 28  1  0  0  0
+ 14 15  2  0  0  0
+ 15 43  1  0  0  0
+ 16 17  1  0  0  0
+ 17 18  2  0  0  0
+ 18 19  1  0  0  0
+ 18 44  1  0  0  0
+ 19 20  2  0  0  0
+ 19 21  1  0  0  0
+ 20 45  1  0  0  0
+ 23 46  1  0  0  0
+ 24 25  1  0  0  0
+ 24 47  1  0  0  0
+ 25 48  1  0  0  0
+ 26 49  1  0  0  0
+ 27 29  1  0  0  0
+ 28 29  2  0  0  0
+M  END
+> <s_m_entry_id>
+7
+
+> <s_m_entry_name>
+lig.1
+
+> <s_pdb_PDB_TITLE>
+HUMAN GALECTIN-3C IN COMPLEX WITH A GALACTOSE DERIVATIVE
+
+> <s_pdb_PDB_ID>
+6EOG
+
+> <r_pdb_PDB_CRYST1_a>
+36.08
+
+> <r_pdb_PDB_CRYST1_b>
+58.44
+
+> <r_pdb_PDB_CRYST1_c>
+62.99
+
+> <r_pdb_PDB_CRYST1_alpha>
+90
+
+> <r_pdb_PDB_CRYST1_beta>
+90
+
+> <r_pdb_PDB_CRYST1_gamma>
+90
+
+> <s_pdb_PDB_CRYST1_Space_Group>
+P 21 21 21
+
+> <i_pdb_PDB_CRYST1_z>
+4
+
+> <s_pdb_PDB_CLASSIFICATION>
+SUGAR BINDING PROTEIN
+
+> <s_pdb_PDB_DEPOSITION_DATE>
+09-OCT-17
+
+> <s_pdb_PDB_format_version>
+3.30
+
+> <r_pdb_PDB_R>
+0.112
+
+> <r_pdb_PDB_Rfree>
+0.146
+
+> <r_pdb_PDB_RESOLUTION>
+1.2
+
+> <s_pdb_PDB_EXPDTA>
+X-RAY DIFFRACTION
+
+> <r_pdb_PDB_EXPDTA_TEMPERATURE>
+100
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains>
+A
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1>
+1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000
+
+> <s_m_Source_Path>
+/home/pxl/localhome3/Study/PLFilter/plip_rdkit/data/6eog
+
+> <s_m_Source_File>
+lig.mol
+
+> <i_m_Source_File_Index>
+1
+
+> <s_ppw_entry_id_backup>
+1
+
+> <b_ppw_prepared>
+1
+
+> <s_ppw_prepared_with_version>
+2020-3
+
+> <b_ppw_assigned_bond_orders>
+1
+
+> <b_ppw_added_hydrogens>
+1
+
+> <b_ppw_treated_metals>
+1
+
+> <b_ppw_created_disulfur>
+1
+
+> <b_ppw_deleted_far_waters>
+1
+
+> <s_ppw_het_states>
+eJy1lDFPwzAQhf+KlTkp9t0lcdqNiRUxog5V6URJGcKAqv537HPd5wQJiaGVKl1ezvc9ny8+V65am9fwc87Z2thtbWLoEBJCRigIW4Qdwh6hRzjcQgKNQCPQCDQCjUAj0Ag0Ao1AY9AYNAaNQWPQGDQGjUFj0Bg0AU2UFuNrh1NH3bUfKkT2XOggOF0iCyFuYi4UNUiXLIW4lyywCnYpFEVFhcJpXK3HQ6VQOu0UOyBDBSp89JrhkaECySJDCh8+F50JUlgf1AcySFsYZ4pmApySdoyKJbRwmoR4zlng7DQXbZdF0257ZKTNeWT4jKVSKI6B0zGgH9peHbIs9FmgOFR2Za0N6ecqvgpfchOU2sQnH570tbvUhlfDMIRa1cu0mw7m8zDujtN3SjDv+93x4eN03Jin5vE0vpn96Wuc1oY35jmkVBFU0e2akNCbxulIh38Cni/q5Teg+ZNgldC4hGAg+E4IAULuhGiBaO+E6IDoFJFuGtxK4otLR3SGBLMs6SMLObydGeP/G2MYu/wAuI9rcg==
+
+> <s_m_subgroup_title>
+6EOG - preprocessed_split_by_structure
+
+> <s_m_subgroupid>
+6EOG - preprocessed_split_by_structure1
+
+> <b_m_subgroup_collapsed>
+0
+
+$$$$

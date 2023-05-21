@@ -1,0 +1,225 @@
+3BBH - preprocessed_protein_molecule2
+                    3D
+ Schrodinger Suite 2020-3.
+ 51 53  0  0  1  0            999 V2000
+   49.9150   54.4790    8.5230 N   0  3  0  0  0  0
+   49.5140   55.7200    7.8540 C   0  0  2  0  0  0
+   50.3950   56.9260    8.2960 C   0  0  0  0  0  0
+   50.7000   57.7760    7.5170 O   0  5  0  0  0  0
+   50.8670   57.0520    9.6100 O   0  0  0  0  0  0
+   48.0260   55.9510    8.1790 C   0  0  0  0  0  0
+   47.1750   56.4970    7.0090 C   0  0  0  0  0  0
+   45.8070   56.9020    7.6320 C   0  0  2  0  0  0
+   44.7340   56.0310    7.1360 N   0  3  0  0  0  0
+   45.4520   58.3840    7.3730 C   0  0  0  0  0  0
+   46.2340   59.3310    8.3150 C   0  0  1  0  0  0
+   46.1280   58.9990    9.7310 O   0  0  0  0  0  0
+   47.7460   59.3290    8.0480 C   0  0  1  0  0  0
+   48.0840   60.0140    6.8740 O   0  0  0  0  0  0
+   48.3170   59.9610    9.2840 C   0  0  1  0  0  0
+   48.4300   61.3520    9.1160 O   0  0  0  0  0  0
+   47.3040   59.6030   10.3800 C   0  0  2  0  0  0
+   47.8740   58.6100   11.2960 N   0  0  0  0  0  0
+   47.5700   57.1540   11.3050 C   0  0  0  0  0  0
+   48.3180   56.5510   12.3980 N   0  0  0  0  0  0
+   49.0690   57.6120   13.0690 C   0  0  0  0  0  0
+   50.0080   57.5860   14.2570 C   0  0  0  0  0  0
+   50.2810   56.3290   14.9400 N   0  0  0  0  0  0
+   50.6200   58.8200   14.7130 N   0  0  0  0  0  0
+   50.3360   60.1160   14.0230 C   0  0  0  0  0  0
+   49.4170   60.1380   12.8630 N   0  0  0  0  0  0
+   48.7850   58.8800   12.3960 C   0  0  0  0  0  0
+   49.3231   53.7220    8.2121 H   0  0  0  0  0  0
+   50.8765   54.2690    8.2959 H   0  0  0  0  0  0
+   49.8221   54.5897    9.5226 H   0  0  0  0  0  0
+   49.6197   55.5863    6.7774 H   0  0  0  0  0  0
+   47.9437   56.6265    9.0305 H   0  0  0  0  0  0
+   47.5874   55.0209    8.5403 H   0  0  0  0  0  0
+   47.0187   55.7062    6.2753 H   0  0  0  0  0  0
+   47.6582   57.3803    6.5914 H   0  0  0  0  0  0
+   45.8780   56.7608    8.7105 H   0  0  0  0  0  0
+   43.8558   56.3085    7.5505 H   0  0  0  0  0  0
+   44.6718   56.1115    6.1311 H   0  0  0  0  0  0
+   44.9353   55.0730    7.3847 H   0  0  0  0  0  0
+   44.3817   58.5312    7.5176 H   0  0  0  0  0  0
+   45.6780   58.6353    6.3367 H   0  0  0  0  0  0
+   45.8607   60.3449    8.1707 H   0  0  0  0  0  0
+   48.0966   58.2994    7.9765 H   0  0  0  0  0  0
+   49.0355   59.9861    6.7493 H   0  0  0  0  0  0
+   49.2906   59.5282    9.5139 H   0  0  0  0  0  0
+   48.7960   61.7424    9.9130 H   0  0  0  0  0  0
+   47.0122   60.4980   10.9295 H   0  0  0  0  0  0
+   46.8936   56.7390   10.5724 H   0  0  0  0  0  0
+   50.9070   56.3104   15.7324 H   0  0  0  0  0  0
+   49.8443   55.4759   14.6213 H   0  0  0  0  0  0
+   50.8002   61.0266   14.3719 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1 28  1  0  0  0
+  1 29  1  0  0  0
+  1 30  1  0  0  0
+  2  3  1  0  0  0
+  2  6  1  0  0  0
+  2 31  1  0  0  0
+  3  4  1  0  0  0
+  3  5  2  0  0  0
+  6  7  1  0  0  0
+  6 32  1  0  0  0
+  6 33  1  0  0  0
+  7  8  1  0  0  0
+  7 34  1  0  0  0
+  7 35  1  0  0  0
+  8  9  1  0  0  0
+  8 10  1  0  0  0
+  8 36  1  0  0  0
+  9 37  1  0  0  0
+  9 38  1  0  0  0
+  9 39  1  0  0  0
+ 10 11  1  0  0  0
+ 10 40  1  0  0  0
+ 10 41  1  0  0  0
+ 11 12  1  0  0  0
+ 11 13  1  0  0  0
+ 11 42  1  0  0  0
+ 12 17  1  0  0  0
+ 13 14  1  0  0  0
+ 13 15  1  0  0  0
+ 13 43  1  0  0  0
+ 14 44  1  0  0  0
+ 15 16  1  0  0  0
+ 15 17  1  0  0  0
+ 15 45  1  0  0  0
+ 16 46  1  0  0  0
+ 17 18  1  0  0  0
+ 17 47  1  0  0  0
+ 18 19  1  0  0  0
+ 18 27  1  0  0  0
+ 19 20  2  0  0  0
+ 19 48  1  0  0  0
+ 20 21  1  0  0  0
+ 21 22  1  0  0  0
+ 21 27  2  0  0  0
+ 22 23  1  0  0  0
+ 22 24  2  0  0  0
+ 23 49  1  0  0  0
+ 23 50  1  0  0  0
+ 24 25  1  0  0  0
+ 25 26  2  0  0  0
+ 25 51  1  0  0  0
+ 26 27  1  0  0  0
+M  CHG  3   1   1   4  -1   9   1
+M  END
+> <s_m_entry_id>
+7
+
+> <s_m_entry_name>
+3bbh.1_others_mol3
+
+> <s_pdb_PDB_TITLE>
+M. JANNASCHII NEP1 COMPLEXED WITH SINEFUNGIN
+
+> <s_pdb_PDB_ID>
+3BBH
+
+> <r_pdb_PDB_CRYST1_a>
+84.599
+
+> <r_pdb_PDB_CRYST1_b>
+89.56
+
+> <r_pdb_PDB_CRYST1_c>
+94.156
+
+> <r_pdb_PDB_CRYST1_alpha>
+90
+
+> <r_pdb_PDB_CRYST1_beta>
+90
+
+> <r_pdb_PDB_CRYST1_gamma>
+90
+
+> <s_pdb_PDB_CRYST1_Space_Group>
+P 21 21 21
+
+> <i_pdb_PDB_CRYST1_z>
+8
+
+> <s_pdb_PDB_CLASSIFICATION>
+TRANSFERASE
+
+> <s_pdb_PDB_DEPOSITION_DATE>
+09-NOV-07
+
+> <s_pdb_PDB_format_version>
+3.15
+
+> <r_pdb_PDB_R>
+0.214
+
+> <r_pdb_PDB_Rfree>
+0.244
+
+> <r_pdb_PDB_RESOLUTION>
+2.25
+
+> <s_pdb_PDB_EXPDTA>
+X-RAY DIFFRACTION
+
+> <r_pdb_PDB_EXPDTA_TEMPERATURE>
+100
+
+> <r_pdb_PDB_EXPDTA_PH>
+10
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains>
+A, B
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1>
+1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000
+
+> <s_m_Source_Path>
+/home/pxl/localhome3/Study/PLFilter/plip_rdkit/data/3bbh
+
+> <s_m_Source_File>
+3bbh.pdb
+
+> <i_m_Source_File_Index>
+1
+
+> <s_ppw_entry_id_backup>
+1
+
+> <b_ppw_prepared>
+1
+
+> <s_ppw_prepared_with_version>
+2020-3
+
+> <b_ppw_assigned_bond_orders>
+1
+
+> <b_ppw_added_hydrogens>
+1
+
+> <b_ppw_treated_metals>
+1
+
+> <b_ppw_created_disulfur>
+1
+
+> <b_ppw_deleted_far_waters>
+1
+
+> <s_ppw_het_states>
+eJztlr1u20AQhF+FUBtL4e79212qtEHKwIXhuIpjp1CKwPC7h9yj+B0PDgIDagzY1Xp05OzOzEr3tJPd5fBt+nMuuYthvL4Y5tJTBspImSgzZVnLPFIKpVLClmHLsGXYMmwZtgxbga3AVmArsBXYCmwFtgJbga0Y21wvUlWVBMGqVlsgAwQDYg9MZIqQVUNBzqqkIGrVcwsogBrgAKzT7HuATrN1mqHN1liOPZAAkgG5B5p3WOuF1ot1WqQHeGT+rHqm2FedE0ys/m2BwiM2S2G4BYiciAYwS7HWZ6MVz0+NTYjoIcY4tfK0m1uatsWQMJ2agbgCoQJ5BcrzxbCPy9O7r8eb493w6+7h5v74px5Jw4/bm/uPPx/vr4bP+0+PD9+H28ffD8fLwV8NXy6HcWdxW/LWBOvl1dyfTrxyN5vovO/m+26+pd08jFFdu5oTIKXZzPn/2Czm/MC0lv5QJrsLf+GFDZ3O/mdBP8hubmOnp99QP65h96NQKqWj9JSBANs76uOyfFoBBVADXA94AG9AWITaj4fpHU/T5Fb0o84fj/+cdTx9Gc2jOkaNtJ8oM+X6HeAFWUTaUaO1mei7AhkgG1A6QNb0Wllfe+ZR/Tqq4J/gn+CfBEpkkdSMKmaR4NkC4JmYZxJ6IAKYOpLOPmpgVPwT/FP8U2KtyKKuHbVahGcVUDxT80ylB4i4mjrqzj5qXEdV/FP8U/xTYq3IosjikMUhi0MWR1ocbA42B5uDzcHmYPOwedg8bB42D5uHzcPmYfOwedjC2DiqlkQlmnNZtdoCeK6WVU09sH6Z2+GqoSBnVVIQteq5BViiuazaCjJXhbcAnTrr1De01phLPcCXkLP8utIBzTu8te5p3VunXjsgNI9YwmfPFPuqc4KJ1b8NML9D8bbaKhsgcSIZwCy+tl44UWjsenvfnVra3nen123vu9PT2/tuOMd91/LWBOvl1dyfTrxyN5vovO/m+26+pd3kvrus5nrfXTZzve8ui7ncd8N577tp/Q0NhD0Q9kDYA2EPhD3EJsChqo8dC0CSgqkffA+gfjBtQzz7dSGvo0a2MrKVka1MfAckZEnajBrN8YjjC0B6ozmexh4gvcnUSXreUZ//Ak6pVqo=
+
+> <s_m_subgroup_title>
+3BBH - preprocessed_split_by_structure->3BBH - preprocessed_protein_split_by_molecule
+
+> <s_m_subgroupid>
+3BBH - preprocessed_split_by_structure->3BBH - preprocessed_protein_split_by_molecule
+
+> <b_m_subgroup_collapsed>
+0
+
+$$$$
