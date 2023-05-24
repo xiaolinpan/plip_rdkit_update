@@ -19,6 +19,16 @@ from plip_rdkit.detection_rdkit import hydrophobic_interactions, pistacking, hbo
 from plip_rdkit import config
 
 def get_features(mol):
+    """
+    The function is for ligand features detection.
+    input:
+        mol: rdkit mol object of ligand
+    output:
+        data: namedtuple
+           donors: list[], store atom index 
+           acceptors: list[], store atom index 
+           hydrophobics: list[], 
+    """
     donors, acceptors, hydrophobics = [], [], []
     for atom in mol.GetAtoms():
         symbol = atom.GetSymbol()
