@@ -1,0 +1,79 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1TQV
+HETATM    1 SE4  SSE A1200      30.684  65.182   9.168  1.00  0.00          Se  
+HETATM    2  S9  SSE A1200      27.414  68.529  12.527  1.00  0.00           S  
+HETATM    3  O11 SSE A1200      26.926  67.979  13.802  1.00  0.00           O  
+HETATM    4  O12 SSE A1200      26.509  69.525  11.982  1.00  0.00           O  
+HETATM    5  O13 SSE A1200      28.785  68.993  12.663  1.00  0.00           O  
+HETATM    6  O6  SSE A1200      27.820  66.332   7.453  1.00  0.00           O  
+HETATM    7  O10 SSE A1200      25.635  65.722  12.603  1.00  0.00           O  
+HETATM    8  O2  SSE A1200      33.861  65.780   7.298  1.00  0.00           O  
+HETATM    9  O8  SSE A1200      28.300  63.915  10.617  1.00  0.00           O  
+HETATM   10  O1  SSE A1200      31.578  67.220   5.843  1.00  0.00           O  
+HETATM   11  O9  SSE A1200      27.520  67.471  11.483  1.00  0.00           O  
+HETATM   12  C3  SSE A1200      32.390  66.091   9.294  1.00  0.00           C  
+HETATM   13  C7  SSE A1200      29.714  66.115  10.577  1.00  0.00           C  
+HETATM   14  C6  SSE A1200      29.100  66.222   6.857  1.00  0.00           C  
+HETATM   15  C10 SSE A1200      26.961  65.252  12.738  1.00  0.00           C  
+HETATM   16  C5  SSE A1200      30.361  66.434   7.670  1.00  0.00           C  
+HETATM   17  C2  SSE A1200      32.735  66.414   7.851  1.00  0.00           C  
+HETATM   18  C8  SSE A1200      28.376  65.376  10.537  1.00  0.00           C  
+HETATM   19  C1  SSE A1200      31.621  66.207   6.850  1.00  0.00           C  
+HETATM   20  C9  SSE A1200      27.544  66.036  11.590  1.00  0.00           C  
+HETATM   21  H1  SSE A1200      27.704  67.253   7.826  1.00  0.00           H  
+HETATM   22  H2  SSE A1200      25.516  66.546  13.156  1.00  0.00           H  
+HETATM   23  H3  SSE A1200      34.524  66.471   7.009  1.00  0.00           H  
+HETATM   24  H4  SSE A1200      29.126  63.516  10.218  1.00  0.00           H  
+HETATM   25  H5  SSE A1200      32.510  67.474   5.585  1.00  0.00           H  
+HETATM   26  H6  SSE A1200      32.919  66.299  10.117  1.00  0.00           H  
+HETATM   27  H7  SSE A1200      29.605  67.087  10.368  1.00  0.00           H  
+HETATM   28  H8  SSE A1200      30.165  66.014  11.464  1.00  0.00           H  
+HETATM   29  H9  SSE A1200      29.126  66.890   6.113  1.00  0.00           H  
+HETATM   30  H10 SSE A1200      29.158  65.299   6.478  1.00  0.00           H  
+HETATM   31  H11 SSE A1200      27.033  64.264  12.603  1.00  0.00           H  
+HETATM   32  H12 SSE A1200      27.368  65.499  13.617  1.00  0.00           H  
+HETATM   33  H13 SSE A1200      30.367  67.370   8.022  1.00  0.00           H  
+HETATM   34  H14 SSE A1200      32.938  67.393   7.833  1.00  0.00           H  
+HETATM   35  H15 SSE A1200      27.955  65.623   9.664  1.00  0.00           H  
+HETATM   36  H16 SSE A1200      31.645  65.290   6.453  1.00  0.00           H  
+HETATM   37  H17 SSE A1200      26.709  65.941  11.048  1.00  0.00           H  
+CONECT    1   12   13   16
+CONECT    2    3    4    5   11
+CONECT    3    2
+CONECT    4    2
+CONECT    5    2
+CONECT    6   14   21
+CONECT    7   15   22
+CONECT    8   17   23
+CONECT    9   18   24
+CONECT   10   19   25
+CONECT   11    2   20
+CONECT   12    1   17   26
+CONECT   13    1   18   27   28
+CONECT   14    6   16   29   30
+CONECT   15    7   20   31   32
+CONECT   16    1   14   19   33
+CONECT   17    8   12   19   34
+CONECT   18    9   13   20   35
+CONECT   19   10   16   17   36
+CONECT   20   11   15   18   37
+CONECT   21    6
+CONECT   22    7
+CONECT   23    8
+CONECT   24    9
+CONECT   25   10
+CONECT   26   12
+CONECT   27   13
+CONECT   28   13
+CONECT   29   14
+CONECT   30   14
+CONECT   31   15
+CONECT   32   15
+CONECT   33   16
+CONECT   34   17
+CONECT   35   18
+CONECT   36   19
+CONECT   37   20
+END   

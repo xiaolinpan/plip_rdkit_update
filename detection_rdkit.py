@@ -178,7 +178,7 @@ def pication(rings, pos_charged, protcharged):
         pos_charged: list[ positive_charged_namedtuple ]
         protcharged: boolean, if the charged atom is in the protein structure.
     output:
-        list[pication_namedtuple]
+        list[pication_namedtuple], it contains the interaction information, like distance, residue type, residue number ...
     """
     data = namedtuple(
         'pication', 'ring charge distance offset type restype resnr reschain restype_l resnr_l reschain_l protcharged')
@@ -232,11 +232,11 @@ def saltbridge(poscenter, negcenter, protispos):
     """
     Detect all salt bridges (pliprofiler between centers of positive and negative charge)
     input:
-        poscenter: list[],
-        negcenter: list[],
-        protispos: list[], 
+        poscenter: list[], positive charge information (details in plip_rdkit.py `find_charged` function).
+        negcenter: list[], negtive charge information. (details in plip_rdkit.py `find_charged` function)
+        protispos: boolean, if the charged atom is in the protein structure. 
     output:
-         
+        return list[saltbrigde_namedtuple], it contains the interaction information. 
     """
     data = namedtuple(
         'saltbridge', 'positive negative distance protispos resnr restype reschain resnr_l restype_l reschain_l')
@@ -257,7 +257,14 @@ def saltbridge(poscenter, negcenter, protispos):
     return filter_contacts(pairings)
 
 def halogen(acceptor, donor):
-    """Detect all halogen bonds of the type Y-O...X-C"""
+    """
+    Detect all halogen bonds of the type Y-O...X-C
+    input:
+        acceptor: list[acceptor_namedtuple], it contains the acceptor informaion (details in plip_rdkit.py `find_hba` function). 
+        donor: list[donor_namedtuple], it contains the donor information (details in plip_rdkit.py `find_hbd` function).
+    output:
+        return list[halogenbond_namedtuple] 
+    """
     data = namedtuple('halogenbond', 'acc acc_orig_idx don don_orig_idx distance don_angle acc_angle restype '
                                      'resnr reschain restype_l resnr_l reschain_l donortype acctype sidechain')
     pairings = []
@@ -288,7 +295,18 @@ def halogen(acceptor, donor):
 
 
 def water_bridges(bs_hba, lig_hba, bs_hbd, lig_hbd, water):
-    """Find water-bridged hydrogen bonds between ligand and protein. For now only considers bridged of first degree."""
+    """
+    you need to check the result of the function when you use it, because it was convert from openbabel version and has not test it enough.
+    Find water-bridged hydrogen bonds between ligand and protein. For now only considers bridged of first degree.
+    input:
+        bs_hba: list[hba_namedtuple], hbond acceptor in the protein.
+        lig_hba: list[hbd_namedtuple], hbond acceptor in the ligand.
+        bs_hbd: list[hbd_namedtuple], hbond donor in the protein.
+        lig_hbd: list[hbd_namedtuple], hbond acceptor in the ligand.
+        water: list[water_namedtuple], water information
+    output:
+        list[waterbridge_namedtuple], it contains the interaction information of water bridge.
+    """
     data = namedtuple('waterbridge', 'a a_orig_idx atype d d_orig_idx dtype h water water_orig_idx distance_aw '
                                      'distance_dw d_angle w_angle type resnr restype reschain resnr_l restype_l reschain_l protisdon')
     pairings = []

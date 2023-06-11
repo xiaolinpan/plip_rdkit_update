@@ -25,9 +25,9 @@ def get_features(mol):
         mol: rdkit mol object of ligand
     output:
         data: namedtuple
-           donors: list[], store atom index 
-           acceptors: list[], store atom index 
-           hydrophobics: list[], 
+           donors: list[ atom_index ] 
+           acceptors: list[ atom_index ]
+           hydrophobics: list[ atom_index ] 
     """
     donors, acceptors, hydrophobics = [], [], []
     for atom in mol.GetAtoms():
@@ -227,7 +227,11 @@ class Ligand(Mol):
         input:
             None
         output:
-            atom_set: list[hydrophobic_namedtuple],  
+            atom_set: list[hydrophobic_namedtuple], hydrophobic_namedtuple contains atom, orig_atom, orig_idx, coords.
+                atom: rdkit atom object
+                orig_atom: rdkit atom object, it's same as atom parameter.
+                orig_idx: atom index
+                coords: atomic coordinates
         """
         atom_set = []
         data = namedtuple('hydrophobic', 'atom orig_atom orig_idx coords')
@@ -241,7 +245,18 @@ class Ligand(Mol):
         return atom_set
 
     def find_hba(self):
-        """Find all possible hydrogen bond acceptors"""
+        """
+        Find all possible hydrogen bond acceptors.
+        input:
+            None
+        output:
+            a_set: list[ namedtuple ]
+                a: rdkit atom object
+                a_orig_atom: rdkit atom object, it's same as a.
+                a_orig_idx: atom index
+                type: acceptor's type
+                coords: atomic coordinates
+        """
         data = namedtuple('hbondacceptor', 'a a_orig_atom a_orig_idx type coords')
         a_set = []
 
@@ -258,7 +273,20 @@ class Ligand(Mol):
         return a_set
 
     def find_hbd(self):
-        """Find all possible strong and weak hydrogen bonds donors (all hydrophobic C-H pairings)"""
+        """
+        Find all possible strong and weak hydrogen bonds donors (all hydrophobic C-H pairings)
+        input:
+            None
+        output:
+            donor_pairs: list[ namedtuple ], namedtuple contains donor heavy atom and hydrogen atom.
+                d: rdkit atom object, donor heavy atom
+                d_orig_atom: it's same as d
+                d_orig_idx:  atom index
+                h: rdkit atom object, donor hydrogen atom
+                type: donor's type (regular or weak)
+                d_coords: donor heavy atom coordinates
+                h_coords: donor hydrogen atom coordinates.
+        """
         donor_pairs = []
         data = namedtuple('hbonddonor', 'd d_orig_atom d_orig_idx h type d_coords h_coords')
 
@@ -289,7 +317,20 @@ class Ligand(Mol):
         return donor_pairs
 
     def find_hal(self):
-        """Look for halogen bond donors (X-C, with X=F, Cl, Br, I)"""
+        """
+        Look for halogen bond donors (X-C, with X=F, Cl, Br, I)
+        input:
+            None
+        output:
+            a_set: list[ namedtuple ]
+                x: rdkit atom object
+                orig_x: it's same as x
+                x_orig_idx: atom index
+                c: rdkit atom object, neighbor atom of x
+                c_orig_idx: atom index
+                x_coords: np.array, shape (3,)
+                c_coords: np.array, shape (3,)
+        """
         data = namedtuple('hal_donor', 'x orig_x x_orig_idx c c_orig_idx x_coords c_coords')
         a_set = []
         for a in self.all_atoms:
@@ -309,10 +350,21 @@ class Ligand(Mol):
         return a_set
         
     def find_charged(self):
-        """Identify all positively charged groups in a ligand. This search is not exhaustive, as the cases can be quite
+        """
+        Identify all positively charged groups in a ligand. This search is not exhaustive, as the cases can be quite
         diverse. The typical cases seem to be protonated amines, quaternary ammoinium and sulfonium
         as mentioned in 'Cation-pi interactions in ligand recognition and catalysis' (Zacharias et al., 2002)).
         Identify negatively charged groups in the ligand.
+        input:
+            None
+        output:
+            a_set: list[ namedtuple ]
+                atoms: list[rdkit_atom_object] 
+                orig_atoms: it's same as atoms
+                atoms_orig_idx: list[atom_index]
+                type: charge's type (positive or negtive)
+                center: the charged atom center coordinates
+                fgroup: function group type
         """
         data = namedtuple('lcharge', 'atoms orig_atoms atoms_orig_idx type center fgroup')
         a_set = []
@@ -380,7 +432,14 @@ class Ligand(Mol):
         return a_set
     
     def is_functional_group(self, atom, group):
-        """Given a pybel atom, look up if it belongs to a function group"""
+        """
+        Given a rdkit atom, look up if it belongs to a function group
+        input:
+            atom: rdkit atom object
+            group: function group name
+        output:
+            True or False
+        """
         n_atoms = [a_neighbor.GetAtomicNum() for a_neighbor in atom.GetNeighbors()]
 
         if group in ['quartamine', 'tertamine'] and atom.GetAtomicNum() == 7:  # Nitrogen
@@ -942,3 +1001,12 @@ def get_interactions(mol_protein, mol_ligand, mol_waters=None, pdbid=None):
     
     interactions = PLInteraction(lig, prot, pdbid)
     return data(lig=lig, prot=prot, interactions=interactions)
+
+
+if __name__=="__main__":
+   prot_path = "data/5v3x/pocket.pdb" 
+   lig_path = "data/5v3x/lig.mol"
+   mol_protein = Chem.MolFromPDBFile(prot_path, removeHs=False, santize=False)
+   mol_ligand = Chem.MolFromMolFile(lig_path, removeHs=False)
+   pl_info = get_interactions(mol_protein, mol_ligand)
+   print(pl_info)
